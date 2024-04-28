@@ -10,8 +10,13 @@ Pour compiler :
 ```shell
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
-#### 2. L'utiliser dans votre code
+#### 1. L'utiliser dans votre code
 Pour utiliser les fonctions de la bibliothèque dans votre code, incluez simplement son en-tête : 
 ```C
 #include "get_next_line.h"
 ```
+et lors de la compilation de votre code, ajoutez les fichiers sources et le flag requis :
+```shell
+get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
+```
+
