@@ -1,6 +1,7 @@
 # 42_get_next_line
 Ce projet consiste à coder une fonction qui renvoie une ligne lue à partir d'un descripteur de fichier
 
+## 🛠️ Usage
 ### Exigence
 La fonction est écrite en langage C et nécessite donc le **```gcc``` compilateur** et certaines **bibliothèques C standard** pour s'exécuter.
 
